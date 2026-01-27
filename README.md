@@ -91,26 +91,55 @@ Just learning.
 
 ## 🤖 Gemini 3 Integration (Core Intelligence)
 
-Gemini 3 API serves as the central intelligence to KC-IDS.
+> Gemini 3 API serves as the central intelligence to KC-IDS.
 
-Core Idea, conversationalized:
-> Gemini 3 API would be used to constantly explore data, distinguish data,
-> explain data, synthesize new data, and even perfect existing data for the
-> model to learn on. Google Cloud will be our primary input source of data.
->
-> This is perfect, as Google probably have extensive logs and algorithms to sift
-> through them, but gaining actionable understanding may prove difficulty across
-> vast infrastructure.
->
-> By having an AI learn all of that information, KC-IDS produces not just random
-> error codes, but **high-level feedback that is actually useful**.
-
-Gemini 3 is used to:
+#### Gemini 3 is used to:
 - Reason over cloud logs
 - Generate high-level incident explanations
 - Synthesize realistic fraud scenarios
 - Improve and perfect training data
 - Critique model performance after each cycle
+
+**Core Idea, conversationalized:**
+> Gemini 3 API would be used to constantly explore data, distinguish data,
+> explain data, synthesize new data, and even perfect existing data for the
+> model to learn on. Google Cloud will be our primary input source of data.
+>
+> This is perfect, as Google probably have extensive logs and algorithms to
+> sift through them, but gaining actionable understanding may prove difficulty
+> across vast infrastructure, so having an AI learn all of that information
+> would be able to give it a more detailed and general understanding, and now
+> only do we get random error codes, we could also get high-level feedback,
+> which is very useful. *In other words...*
+
+    KC-IDS produces not just random error codes, but high-level feedback that is actually useful.
+
+**Gemini 3 API features leveraged:**
+
+1. **Multimodal Reasoning over Structured Data**  
+   Gemini 3 interprets large volumes of structured and semi-structured Google Cloud logs
+   (IAM, KMS, API events) to infer intent, ownership mismatch, and behavioral anomalies.
+
+2. **Advanced Contextual Understanding (Long-Context Reasoning)**  
+   Enables correlation of access patterns across time, services, and identities,
+   producing high-level incident explanations instead of isolated alerts.
+
+3. **Synthetic Data Generation**  
+   Gemini 3 generates realistic fraud and intrusion scenarios to:
+   - Augment rare attack cases
+   - Improve model robustness
+   - Perfect existing datasets before training
+
+4. **Model Evaluation & Critique**  
+   Gemini 3 analyzes detection outcomes, identifies false positives and blind spots,
+   and provides feedback to guide retraining in the Kaizen MLOps loop.
+
+5. **Natural Language Explanation Generation**  
+   Converts low-level security events into human-readable summaries for audits,
+   SOC workflows, and demos.
+
+These capabilities allow KC-IDS to move beyond static detection
+into a **continuously learning, reasoning-driven cloud security system**.
 
 ---
 
@@ -146,13 +175,3 @@ During the demo:
 5. Same attack is detected faster next time
 
 Kaizen in action.
-
----
-
-## 🕹️ Developer Commands
-
-```bash
-make train        # Teach the guardian
-make detect       # Watch the cloud
-make explain     # Ask Gemini what happened
-make improve     # Kaizen cycle
