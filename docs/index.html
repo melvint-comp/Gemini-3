@@ -4,38 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KC-IDS Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <header style="border-radius: 250px; background-color: #FAFAFA; margin-top: 1.5rem;">
     <h1>KC-IDS Dashboard</h1>
     <p>Kaizen Cloud Intrusion Detection System</p>
+  </header>
 
-    <form id="eventForm">
-      <label>Caller Identity</label>
-      <input type="text" id="caller_identity" placeholder="service-account-c" required>
+  <main>
+    <section class="results">
+      <div class="output">
+        <h2 style="text-align: center; font-family: 'Google Sans Flex';">Detection Output</h2>
+        <pre id="fraud-score">Fraud Score: N/A</pre>
+        <pre id="gemini-explanation">Explanation: N/A</pre>
+      </div>
+        <section class="controls" style="margin-top: 0px;">
+            <button id="run-demo">Run Demo</button>
+        </section>
+    </section>
+  </main>
 
-      <label>Key Owner</label>
-      <input type="text" id="key_owner" placeholder="service-account-a" required>
-
-      <label>Resource</label>
-      <input type="text" id="resource" placeholder="kms-key-123" required>
-
-      <label>Region</label>
-      <input type="text" id="region" placeholder="us-central1" required>
-
-      <label>Hour of Access</label>
-      <input type="number" id="hour" min="0" max="23" placeholder="2" required>
-
-      <button type="submit">Run Detection</button>
-    </form>
-
-    <div id="output">
-      <h2>Results</h2>
-      <p id="fraudScore">Fraud Score: -</p>
-      <p id="geminiExplanation">Explanation: -</p>
-    </div>
-  </div>
+  <footer style="border-radius: 250px; background-color: #FAFAFA;">
+    <p>&copy; 2026 KC-IDS | Hackathon Demo</p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
