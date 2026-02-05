@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KC-IDS Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>KC-IDS Dashboard</h1>
+    <p>Kaizen Cloud Intrusion Detection System</p>
 
+    <form id="eventForm">
+      <label>Caller Identity</label>
+      <input type="text" id="caller_identity" placeholder="service-account-c" required>
+
+      <label>Key Owner</label>
+      <input type="text" id="key_owner" placeholder="service-account-a" required>
+
+      <label>Resource</label>
+      <input type="text" id="resource" placeholder="kms-key-123" required>
+
+      <label>Region</label>
+      <input type="text" id="region" placeholder="us-central1" required>
+
+      <label>Hour of Access</label>
+      <input type="number" id="hour" min="0" max="23" placeholder="2" required>
+
+      <button type="submit">Run Detection</button>
+    </form>
+
+    <div id="output">
+      <h2>Results</h2>
+      <p id="fraudScore">Fraud Score: -</p>
+      <p id="geminiExplanation">Explanation: -</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
