@@ -49,12 +49,6 @@ Instead of static rules, it:
 
 ---
 
-#### Affiliated Google Technologies:
-
-    Gemini 3 API, Google Cloud
-
----
-
 ## 😎 Why KC-IDS Is Different
 
 Traditional Systems:
@@ -82,6 +76,30 @@ Every access event makes the system:
 No frozen models.  
 No rule babysitting.  
 Just learning.
+
+---
+
+## 🌱 Sustainable Development Goals (SDGs)
+
+KC-IDS aligns with the United Nations Sustainable Development Goals by strengthening
+the security and resilience of digital infrastructure.
+
+**Primary Alignment**
+- **SDG 9 – Industry, Innovation and Infrastructure**
+  KC-IDS protects cloud infrastructure using AI-driven, continuously improving
+  security intelligence, enabling safe and scalable digital ecosystems.
+
+**Secondary Alignment(s)**
+- **SDG 16 – Peace, Justice and Strong Institutions**
+  By transforming raw cloud logs into explainable security insights, KC-IDS supports
+  transparency, accountability, and trust in digital systems.
+- **SDG 8 – Decent Work and Economic Growth**
+  Automated, intelligent intrusion detection reduces financial loss, improves
+  operational efficiency, and enables sustainable digital growth.
+
+#### Affiliated Google Technologies:
+
+> Gemini 3 API, Google Cloud
 
 ---
 
