@@ -49,6 +49,12 @@ Instead of static rules, it:
 
 ---
 
+#### Affiliated Google Technologies:
+
+    Gemini 3 API, Google Cloud
+
+---
+
 ## 😎 Why KC-IDS Is Different
 
 Traditional Systems:
