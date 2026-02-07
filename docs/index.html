@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header style="border-radius: 250px; background-color: #FAFAFA; margin-top: 1.5rem;">
+  <header style="border-bottom-left-radius: 250px; border-bottom-right-radius: 250px; background-color: #FAFAFA; border-top: 2rem;">
+    <br />
     <h1>KC-IDS Dashboard</h1>
     <p>Kaizen Cloud Intrusion Detection System</p>
   </header>
@@ -19,8 +20,8 @@
     <section class="results">
       <div class="output">
         <h2 style="text-align: center; font-family: 'Google Sans Flex';">Detection Output</h2>
-        <pre id="fraud-score">Fraud Score: N/A</pre>
-        <pre id="gemini-explanation">Explanation: N/A</pre>
+        <pre id="fraud-score" style="border-radius: 25px;">Fraud Score: N/A</pre>
+        <pre id="gemini-explanation" style="border-radius: 25px;">Explanation: N/A</pre>
       </div>
         <section class="controls" style="margin-top: 0px;">
             <button id="run-demo">Run Demo</button>
@@ -28,7 +29,7 @@
     </section>
   </main>
 
-  <footer style="border-radius: 250px; background-color: #FAFAFA;">
+  <footer style="border-top-left-radius: 250px; border-top-right-radius: 250px; background-color: #FAFAFA;">
     <p>&copy; 2026 KC-IDS | Hackathon Demo</p>
   </footer>
 

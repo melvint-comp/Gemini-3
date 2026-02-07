@@ -1,6 +1,5 @@
 # KC-IDS Architecture
 
-```markdown
 ## Step 1: Cloud Telemetry Collection
 KC-IDS consumes Google Cloud logs including IAM, KMS, API calls, and network flows.
 

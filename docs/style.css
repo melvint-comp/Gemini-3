@@ -68,8 +68,7 @@ button:hover {
 
 /* Results */
 .results {
-  position: fixed;
-  bottom: 7rem;
+  margin-top: 2rem;
   width: 100%;
   max-width: 600px;
   background: #ffffff;

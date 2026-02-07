@@ -1,18 +1,18 @@
 from guardian.feature_extractor import extract_features
 from guardian.detector import detect
 from gemini.reasoning import explain_event
-from kaizen.loop import kaizen_cycle
+from kaizen.loop import kaizen_loop
 
 def run(event: dict):
     features = extract_features(event)
     verdict = detect(features)
 
     if verdict["suspicious"]:
-        print("🚨 INCIDENT DETECTED\n")
+        print("INCIDENT DETECTED\n")
         explanation = explain_event(event, features, verdict)
         print(explanation)
 
-    kaizen_cycle(event, features, verdict)
+    kaizen_loop(event, features, verdict)
 
 if __name__ == "__main__":
     sample_event = {
