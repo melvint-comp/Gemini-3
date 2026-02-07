@@ -6,8 +6,10 @@
 and improves itself indefinitely through a Kaizen-style MLOps loop.
 
     Team Members:
-        Melvin - Google-Style Frontend, Data Processing, and Neural Network Machine Learning Engineer.
+        Melvin - Google-Style Frontend, Data Processing, and Neural Network ML Engineer.
+            Folders: docs/, kaizen/, and mind/
         Rishi - Backend Operations, Gemini AI Engineer.
+            Folders: gemini/ and guardian/
 
 ###### Links: [GitHub Live-Hosted Demo](https://melvint-comp.github.io/Gemini-3/) | [Demo Video]()
 
