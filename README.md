@@ -5,6 +5,12 @@
 **KC-IDS** continuously monitors cloud access behavior, detects unauthorized key usage, explains incidents in human language, 
 and improves itself indefinitely through a Kaizen-style MLOps loop.
 
+    Team Members:
+        Melvin - Google-Style Frontend, Data Processing, and Neural Network Machine Learning Engineer.
+        Rishi - Backend Operations, Gemini AI Engineer.
+
+###### Links: [GitHub Live-Hosted Demo](https://melvint-comp.github.io/Gemini-3/) | [Demo Video]()
+
 ---
 
 ## 🚨 Problem
