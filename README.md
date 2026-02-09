@@ -11,7 +11,7 @@ and improves itself indefinitely through a Kaizen-style MLOps loop.
         Rishi - Backend Operations, Gemini AI Engineer.
             Folders: gemini/ and guardian/
 
-###### Links: [GitHub Live-Hosted Demo](https://melvint-comp.github.io/Gemini-3/) | [Demo Video](https://youtu.be/5AKAssN7L4Y)
+###### Links: [GitHub Live-Hosted Demo](https://melvint-comp.github.io/Gemini-3/) | [Demo Video](https://youtu.be/jZSdvy31SMs)
 
 ---
 
