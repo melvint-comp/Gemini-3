@@ -35,7 +35,7 @@ Security teams often receive:
 
 > KC-IDS monitors all nodes in Google Cloud's infrastructure and logs every detected
 > breach and distinguishes it apart from authorized access, and use that data to
-> observe > performance and constantly improve with logged data.
+> observe performance and constantly improve with logged data.
 
 Instead of static rules, it:
 - Learns access behavior patterns
